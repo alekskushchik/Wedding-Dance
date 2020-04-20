@@ -1,0 +1,324 @@
+@import "vars";
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1280px) {
+  header, main, footer {
+    padding: 0 3rem;
+  }
+  .main-section__intro {
+    max-width: calc(26rem - 3.8rem);
+    padding-right: 2.8rem;
+
+    h1 {
+      font-size: 3.8rem;
+    }
+
+    h4 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      width: 22rem;
+      font-size: 0.8rem;
+    }
+  }
+  .our-services__item {
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
+
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+  header, main, footer {
+    padding: 0 2rem;
+  }
+  .logo {
+    font-size: 18px;
+    width: min-content;
+  }
+  .menu__item {
+    a {
+      font-size: 14px;
+      margin: 0 16px;
+      text-align: center;
+    }
+  }
+  .main-section__intro {
+    max-width: calc(24rem - 3.2rem);
+    padding-right: 2.8rem;
+
+    h1 {
+      font-size: 3.2em;
+    }
+
+    h4 {
+      font-size: 1em;
+    }
+
+    p {
+      width: 20rem;
+      font-size: 0.7rem;
+    }
+  }
+  .our-coaches__item_content {
+    padding: 38px 0 28px;
+
+    h2 {
+      margin: 6px 0;
+      font-size: 20px;
+    }
+
+    h3 {
+      margin: 6px 0;
+      font-size: 12px;
+    }
+
+    .profession {
+      margin: 8px 0;
+    }
+
+    :nth-child(2) p {
+      font-size: 12px;
+      padding: 10px 0;
+    }
+  }
+}
+
+/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .main-menu__button {
+    display: none;
+  }
+  main {
+    padding: 0;
+  }
+  .main-section__intro {
+    opacity: 0;
+  }
+
+  .offer__items div {
+    width: 33.33%;
+  }
+  a.button {
+    width: 4rem;
+    height: .8rem;
+    margin-top: 1rem;
+    font-size: .75rem;
+    padding: .8rem 1.3rem .8rem;
+  }
+  .our-services, .our-coaches, .our-offers  {
+    margin-top: 50px;
+    padding: 0 22px;
+  }
+  .our-services__item {
+    h2 {
+      font-size: 16px;
+    }
+    a {
+      font-size: 12px;
+    }
+  }
+  .offer__items {
+    font-size: 14px;
+  }
+  .icon {
+    font-size: 64px;
+  }
+  .our-coaches__item {
+    width: 100%;
+  }
+}
+
+/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  header {
+    background-color: white;
+    height: 57px;
+    position: fixed;
+  }
+  main, footer {
+    margin-top: 57px;
+    padding: 0;
+  }
+  .main-menu {
+    display: none;
+  }
+  .logo {
+    width: auto;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+    background-color: red;
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: red;
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: red;
+  }
+  #menu__toggle:checked ~ .menu {
+    visibility: visible;
+    left: 0;
+    width: 100%;
+  }
+
+  .menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+
+    > span, > span::before, > span::after {
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      border-radius: 1px;
+      background-color: #000;
+      transition-duration: .25s;
+    }
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    right: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 40px 24px;
+    list-style: none;
+    background-color: #fff;
+    border-bottom: 4px solid #FF699F;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+      padding-bottom: 48px;
+    }
+  }
+  .menu::after {
+    content: 'Menu';
+    color: #ff699f;
+    opacity: .1;
+    width: 0;
+    height: 0;
+    line-height: 1;
+    position: absolute;
+    right: -80px;
+    top: -15px;
+    font-size: 250px;
+    font-weight: 900;
+    letter-spacing: 15px;
+    transform: rotate(90deg);
+  }
+  .menu__item {
+    display: block;
+    padding-bottom: 40px;
+    text-decoration: none;
+    transition-duration: .25s;
+
+    a {
+      margin: 0;
+      font-size: 24px;
+      font-weight: 600;
+    }
+  }
+
+  a.main-menu__button {
+    border: 2px solid #ff699f;
+    color: #ff699f;
+  }
+  .main-section {
+    max-height: 300px;
+  }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+/**/

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="ProjectId" id="1aOpogK4EMW2XrnOpglUpcdL0qd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/icons" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/icons" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gulp.js.browser-sync">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="browser-sync" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>browser-sync</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="iconfont" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>iconfont</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.iconfont" />
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.browser-sync" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="" />
+      <created>1586616670825</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586616670825</updated>
+      <workItem from="1586616672237" duration="1414000" />
+      <workItem from="1586882070633" duration="261000" />
+      <workItem from="1586882959042" duration="602000" />
+      <workItem from="1586887099486" duration="1732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1586888831148">
+      <screen x="-217" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1586864018198" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831148" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332143" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1586888831147">
+      <screen x="-217" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1586864018197" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831147" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332142" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1586888831147">
+      <screen x="-217" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1586864018197" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831147" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332141" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1586888831148">
+      <screen x="-217" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586864018197" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831148" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332142" />
+  </component>
+</project>

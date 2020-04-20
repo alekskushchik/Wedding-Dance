@@ -1,0 +1,47 @@
+/*------------------------
+	icons
+-------------------------*/
+@function unicode($str) {
+	@return unquote("\"\\#{$str}\"");
+}
+
+$icon-ico01: unicode(ea01);
+$icon-ico02: unicode(ea02);
+$icon-ico03: unicode(ea03);
+$icon-ico04: unicode(ea04);
+$icon-ico05: unicode(ea05);
+$icon-ico06: unicode(ea06);
+$icon-ico07: unicode(ea07);
+$icon-ico08: unicode(ea08);
+
+.icon-ico01::before {
+	content: $icon-ico01;
+}
+
+.icon-ico02::before {
+	content: $icon-ico02;
+}
+
+.icon-ico03::before {
+	content: $icon-ico03;
+}
+
+.icon-ico04::before {
+	content: $icon-ico04;
+}
+
+.icon-ico05::before {
+	content: $icon-ico05;
+}
+
+.icon-ico06::before {
+	content: $icon-ico06;
+}
+
+.icon-ico07::before {
+	content: $icon-ico07;
+}
+
+.icon-ico08::before {
+	content: $icon-ico08;
+}
