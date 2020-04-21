@@ -21,7 +21,6 @@ gulp.task('browser-sync', function() {
 		// tunnel: "projectmane", //Demonstration page: http://projectmane.localtunnel.me
 	});
 });
-
 // Минификация пользовательских скриптов проекта и JS библиотек в один файл
 gulp.task('js', function() {
 	return gulp.src([
