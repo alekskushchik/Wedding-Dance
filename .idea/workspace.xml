@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="" />
+    <list default="true" id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basic-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/slick/slick.scss" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +36,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1aOpogK4EMW2XrnOpglUpcdL0qd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -20,13 +47,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/js" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/js" />
       <recent name="$PROJECT_DIR$/app/icons" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -119,6 +149,7 @@
       <workItem from="1586882070633" duration="261000" />
       <workItem from="1586882959042" duration="602000" />
       <workItem from="1586887099486" duration="1732000" />
+      <workItem from="1587469186930" duration="9823000" />
     </task>
     <servers />
   </component>
@@ -150,5 +181,9 @@
     <state width="1398" height="192" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1586864018197" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831148" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332142" />
+    <state x="105" y="23" key="SettingsEditor" timestamp="1587617252444">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state x="105" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1587617252444" />
   </component>
 </project>

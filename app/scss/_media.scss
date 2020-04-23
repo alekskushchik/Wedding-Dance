@@ -67,7 +67,7 @@
       font-size: 0.7rem;
     }
   }
-  .our-coaches__item_content {
+  .coaches__item_content {
     padding: 38px 0 28px;
 
     h2 {
@@ -116,7 +116,7 @@
     font-size: .75rem;
     padding: .8rem 1.3rem .8rem;
   }
-  .our-services, .our-coaches, .our-offers  {
+  .our-services, .coaches, .our-offers  {
     margin-top: 50px;
     padding: 0 22px;
   }
@@ -134,20 +134,19 @@
   .icon {
     font-size: 64px;
   }
-  .our-coaches__item {
+  .coaches__item {
     width: 100%;
   }
 }
-
-/**/
-
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   header {
     background-color: white;
     height: 57px;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
   main, footer {
     margin-top: 57px;
@@ -266,6 +265,7 @@
   }
 
   a.main-menu__button {
+    display: block;
     border: 2px solid #ff699f;
     color: #ff699f;
   }

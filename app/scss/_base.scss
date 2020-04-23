@@ -9,7 +9,6 @@ body {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  overflow: hidden;
 }
 
 header {
@@ -37,7 +36,7 @@ header {
   &__button {
     height: 36px;
     margin-top: 19px;
-    padding: 6px 32.97px 5px;
+    padding: 6px 33px 6px;
     border: 2px solid black;
     border-radius: 3px;
     text-decoration: none;
@@ -45,6 +44,10 @@ header {
     line-height: 16px;
     font-weight: 600;
     color: black;
+  }
+  &__button:hover {
+    background-color: black;
+    color: white;
   }
 }
 
@@ -115,21 +118,25 @@ a.button {
   display: inline-block;
   box-sizing: content-box;
   margin-top: 40px;
-  padding: 11px 40px 10px;
+  padding: 11px 40px 11px;
   border: 2px solid #FF699F;
   color: #FF699F;
   border-radius: 3px;
   text-decoration: none;
   font-weight: bold;
 }
+a.button:hover {
+  background-color: #FF699F;
+  color: white;
+}
 
-.our-services, .our-offers, .our-coaches {
+.our-services, .our-offers, .coaches {
   margin-top: 100px;
+  position: relative;
   .heading {
     font-size: 36px;
     font-weight: 600;
   }
-
   .description {
     width: 80%;
     margin-top: 24px;
@@ -141,23 +148,18 @@ a.button {
     display: flex;
     overflow: hidden;
     justify-content: space-between;
-    box-shadow: 0 4px 20px rgba(207, 207, 207, 0.25);
   }
-
   &__item {
     width: 32%;
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     box-sizing: content-box;
-    box-shadow: 0 4px 20px rgba(207, 207, 207, 0.25);
-
     h2 {
       margin: 40px 0 24px;
       font-size: 24px;
       font-weight: 600;
     }
-
     a {
       padding-left: 40px;
       padding-top: 8px;
@@ -193,22 +195,21 @@ a.button {
   }
 }
 
-.our-coaches__container {
+.coaches__slider {
+  position: relative;
   display: flex;
   flex-direction: row;
-  box-sizing: content-box;
-
+  box-shadow: 0 4px 30px rgba(207, 207, 207, 0.25);
   :first-child {
     margin-right: 16px;
   }
 }
 
-.our-coaches__item {
+.coaches__item {
   width: 50%;
   display: flex;
+  padding: 0;
   flex-direction: row;
-  box-sizing: content-box;
-
   &_content {
     padding: 43px 0 33px;
     display: flex;
@@ -243,19 +244,68 @@ a.button {
     }
   }
 }
+.slider-counter {
+  margin: 0 20px;
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #000;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 1%;
+  z-index: 10;
+}
 
-.slider {
-  margin: 24px auto 0;
+
+/* Слайдер */
+.slick-slider{}
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  span {
-    margin: 0 15px;
-    align-self: center;
-  }
-  :first-child {
-    opacity: .3;
-  }
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+/* Конкретный слайдер */
+.coaches__slider .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  z-index: 10;
+  font-size: 0;
+  width: 40px;
+  height: 28px;
+  border: none;
+}
+/* Стрелка влево */
+.coaches__slider .slick-arrow.slick-prev {
+  left: calc(50% - 60px);
+  background: url("../icons/prev-arrow.svg") 0 0 no-repeat;
+}
+  /* Стрелка вправо */
+.coaches__slider .slick-arrow.slick-next {
+  left: calc(50% + 60px);
+  background: url("../icons/next-arrow.svg") 0 0  no-repeat;
+}
+
+/* Слайд */
+.slick-slide {}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+/* Слайд основной */
+.slick-slide.slick-current{}
+/* Слайд по центру */
+.slick-slide.slick-center{}
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+
+/* Стрелка не активная */
+.coaches__slider .slick-arrow.slick-disabled {
+  opacity: .3;
 }
 
 footer {
