@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/basic-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/config.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/fonts/slick.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick-theme.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/slick.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/slick/slick.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -149,7 +131,7 @@
       <workItem from="1586882070633" duration="261000" />
       <workItem from="1586882959042" duration="602000" />
       <workItem from="1586887099486" duration="1732000" />
-      <workItem from="1587469186930" duration="9823000" />
+      <workItem from="1587469186930" duration="10444000" />
     </task>
     <servers />
   </component>
