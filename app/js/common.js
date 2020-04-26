@@ -86,19 +86,20 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 1.2,
                     dots: true
-
                 }
             },
             {
                 breakpoint: 481,
                 settings: {
                     slidesToShow: 1.2,
+                    dots: true
                 }
             },
             {
                 breakpoint: 376,
                 settings: {
                     slidesToShow: 1,
+                    dots: true
                 }
             }
         ]
