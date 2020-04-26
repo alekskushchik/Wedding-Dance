@@ -52,6 +52,14 @@ $(document).ready(function () {
                         arrows: false,
                         dots: true
                     }
+                },
+                {
+                    breakpoint: 376,
+                    settings: {
+                        slidesToShow: 1,
+                        arrows: false,
+                        dots: true
+                    }
                 }
             ]
         });
@@ -82,9 +90,15 @@ $(document).ready(function () {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 481,
                 settings: {
                     slidesToShow: 1.2,
+                }
+            },
+            {
+                breakpoint: 376,
+                settings: {
+                    slidesToShow: 1,
                 }
             }
         ]
