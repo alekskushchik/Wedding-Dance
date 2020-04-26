@@ -1,5 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 .hamburger-menu {
@@ -7,14 +9,14 @@ body {
 }
 
 .wrapper {
+  width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 72px;
 }
 
 header {
-  width: 100%;
   height: 72px;
-  padding: 0 72px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -22,7 +24,6 @@ header {
 
 .logo {
   padding: 28px 0 27px;
-  height: 72px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1;
@@ -32,22 +33,53 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
 
-  &__button {
-    height: 36px;
-    margin-top: 19px;
-    padding: 6px 33px 6px;
-    border: 2px solid black;
-    border-radius: 3px;
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 16px;
-    font-weight: 600;
-    color: black;
-  }
-  &__button:hover {
+.button {
+  display: inline-table;
+  width: fit-content;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a.button-black {
+  margin-top: 19px;
+  padding: 6px 33px 6px;
+  border: 2px solid black;
+  color: black;
+
+  &:hover {
     background-color: black;
     color: white;
+  }
+}
+
+a.button-red {
+  margin-top: 40px;
+  padding: 11px 40px 11px;
+  border: 2px solid #FF699F;
+  color: #FF699F;
+
+  &:hover {
+    background-color: #FF699F;
+    color: white;
+  }
+}
+
+a.button-red-circle {
+  display: none;
+  position: relative;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  border: 2px solid #ff699f;
+
+  img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -64,6 +96,7 @@ header {
     margin: 0 24px;
     text-decoration: none;
     color: black;
+    text-align: center;
   }
 
   a:hover {
@@ -71,253 +104,253 @@ header {
   }
 }
 
-main {
-  padding: 0 72px;
-  margin-bottom: 101px;
-}
-
-.main-section {
-  margin: 0 auto;
-  max-height: 55vw;
-  background: url("../img/first-dance-i.jpg") no-repeat center;
-  background-size: cover;
+.top-section {
+  width: 100%;
+  height: 653px;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow: hidden;
+  &__image img {
+    height: fit-content;
+    object-fit: cover;
+    object-position: 100% center;
+  }
 
   &__intro {
-    max-width: calc(33rem - 4.5rem);
-    height: 100%;
-    padding-right: 4.5rem;
-    border: none;
+    width: 35.5%;
+    padding: 73px 77px 80px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: white;
 
     h1 {
-      font-size: 4.5rem;
+      font-size: 72px;
       font-weight: 600;
     }
 
     h4 {
-      margin-top: 16px;
-      font-size: 1.5rem;
+      margin: 16px 0 40px;
+      font-size: 24px;
       font-weight: 500;
     }
-
-    p {
-      width: 24rem;
-      margin-top: 40px;
-      font-size: 16px;
-      font-weight: 400;
-    }
   }
+
 }
 
-a.button {
-  width: 83px;
-  height: 16px;
-  display: inline-block;
-  box-sizing: content-box;
-  margin-top: 40px;
-  padding: 11px 40px 11px;
-  border: 2px solid #FF699F;
-  color: #FF699F;
-  border-radius: 3px;
-  text-decoration: none;
-  font-weight: bold;
-}
-a.button:hover {
-  background-color: #FF699F;
-  color: white;
-}
-
-.our-services, .our-offers, .coaches {
-  margin-top: 100px;
+.section {
   position: relative;
-  .heading {
+  margin-top: 100px;
+
+  &__title {
     font-size: 36px;
     font-weight: 600;
   }
-  .description {
-    width: 80%;
+
+  &__description {
+    max-width: 668px;
     margin-top: 24px;
     margin-bottom: 48px;
     line-height: 1.5;
   }
+}
 
-  &__container {
-    display: flex;
-    overflow: hidden;
-    justify-content: space-between;
-  }
-  &__item {
-    width: 32%;
-    padding-bottom: 50px;
+.our-services {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(207, 207, 207, 0.25);
+  box-shadow: 0 2px 30px rgba(207, 207, 207, 0.25);
+
+  &__items {
+    height: 640px;
+    margin: 12px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
-    box-sizing: content-box;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    background-color: #fff;
+
+    img {
+      border-radius: 2px;
+    }
+
     h2 {
       margin: 40px 0 24px;
+      padding-left: 40px;
       font-size: 24px;
       font-weight: 600;
     }
+
     a {
       padding-left: 40px;
       padding-top: 8px;
       font-size: 16px;
       text-decoration: none;
-    }
 
-    a:hover {
-      text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
 
-.offer__items {
+.offers {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 
-  div {
+  &__item {
     width: 25%;
     margin: 50px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    align-content: flex-start;
     line-height: 1.4;
-  }
 
-  i {
-    margin-bottom: 14px;
+    i {
+      margin-bottom: 14px;
+    }
   }
 }
 
-.coaches__slider {
-  position: relative;
+.slider {
   display: flex;
   flex-direction: row;
   box-shadow: 0 4px 30px rgba(207, 207, 207, 0.25);
-  :first-child {
-    margin-right: 16px;
+
+  &__item {
+    position: relative;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
   }
 }
 
-.coaches__item {
-  width: 50%;
+.content {
+  padding: 43px 33px;
   display: flex;
-  padding: 0;
-  flex-direction: row;
-  &_content {
-    padding: 43px 0 33px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
-    line-height: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  line-height: 1;
 
+  :first-child {
     h2 {
-      margin: 8px 0;
+      margin-top: 8px;
       font-size: 24px;
       font-weight: 600;
     }
 
     h3 {
-      margin: 8px 0;
+      margin-top: 8px;
       font-size: 16px;
       font-weight: 600;
     }
 
-    .profession {
+    p {
       margin: 8px 0;
     }
+  }
 
-    :nth-child(2) p {
-      padding: 16px 0;
+  :nth-child(2) {
+    p {
+      padding-top: 16px;
       color: #717171;
+    }
 
-      span {
-        color: black;
-      }
+    span {
+      color: black;
     }
   }
 }
+
 .slider-counter {
-  margin: 0 20px;
+  bottom: -45px;
   position: absolute;
-  font-size: 1rem;
-  font-weight: 100;
   color: #000;
   left: 50%;
   transform: translate(-50%);
-  bottom: 1%;
   z-index: 10;
 }
 
-
-/* Слайдер */
-.slick-slider{}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{}
-/* Ограничивающая оболочка */
 .slick-list {
   overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track {
+  width: 100%;
   display: flex;
   align-items: flex-start;
-  padding-bottom: 20px;
 }
-/* Конкретный слайдер */
-.coaches__slider .slick-arrow {
+
+.slider .slick-arrow {
   position: absolute;
-  bottom: 0;
+  bottom: -50px;
   z-index: 10;
   font-size: 0;
   width: 40px;
   height: 28px;
   border: none;
 }
-/* Стрелка влево */
-.coaches__slider .slick-arrow.slick-prev {
-  left: calc(50% - 60px);
+
+.slider .slick-arrow.slick-prev {
+  left: calc(50% - 80px);
   background: url("../icons/prev-arrow.svg") 0 0 no-repeat;
 }
-  /* Стрелка вправо */
-.coaches__slider .slick-arrow.slick-next {
-  left: calc(50% + 60px);
-  background: url("../icons/next-arrow.svg") 0 0  no-repeat;
+
+.slider .slick-arrow.slick-next {
+  left: calc(50% + 40px);
+  background: url("../icons/next-arrow.svg") 0 0 no-repeat;
 }
 
-/* Слайд */
-.slick-slide {}
-/* Слайд активный (показывается) */
-.slick-slide.slick-active{}
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
-/* Клонированный слайд */
-.slick-slide.slick-cloned{}
-
-/* Стрелка не активная */
-.coaches__slider .slick-arrow.slick-disabled {
+.slider .slick-arrow.slick-disabled {
   opacity: .3;
+}
+
+.slick-dots {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -20px;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+
+  .slick-active button {
+    background-color: transparent;
+    border: 1px solid #ff699f;
+  }
+
+  button {
+    margin: 0 3px;
+    padding: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    background-color: #ff699f;
+    border: none;
+    border-radius: 50%;
+  }
 }
 
 footer {
   max-width: 1440px;
   height: 88px;
   padding: 0 72px;
+  margin-top: 100px;
   line-height: 88px;
   background: #1F1F1F;
   color: #ffffff;
 }
 
 .footer-container {
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

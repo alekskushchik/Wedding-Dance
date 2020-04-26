@@ -1,162 +1,177 @@
 @import "vars";
-
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1280px) {
-  header, main, footer {
-    padding: 0 3rem;
+  .wrapper, footer {
+    padding: 0 36px;
   }
-  .main-section__intro {
-    max-width: calc(26rem - 3.8rem);
-    padding-right: 2.8rem;
+  main {
+    .top-section {
+      height: 600px;
 
-    h1 {
-      font-size: 3.8rem;
-    }
+      &__image img {
+        height: 100%;
+        object-fit: cover;
+      }
 
-    h4 {
-      font-size: 1.2rem;
-    }
+      &__intro {
+        padding: 0 20px;
 
-    p {
-      width: 22rem;
-      font-size: 0.8rem;
+        h1 {
+          font-size: 3em;
+        }
+
+        h4 {
+          font-size: 1em;
+        }
+
+        p {
+          font-size: 0.8rem;
+        }
+      }
     }
   }
-  .our-services__item {
+  .our-services__items {
     h2 {
-      font-size: 20px;
+      font-size: 18px;
+      margin: 18px 0 16px;
+      padding-left: 10px;
+    }
+
+    a {
+      padding-left: 10px;
+      font-size: 14px;
     }
   }
 }
 
-/**/
-
-
 /* Medium Devices, Desktops */
-@media only screen and (max-width: 1024px) {
-  header, main, footer {
-    padding: 0 2rem;
-  }
-  .logo {
-    font-size: 18px;
-    width: min-content;
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    padding: 0 20px;
   }
   .menu__item {
     a {
       font-size: 14px;
-      margin: 0 16px;
-      text-align: center;
+      margin: 0 12px;
     }
   }
-  .main-section__intro {
-    max-width: calc(24rem - 3.2rem);
-    padding-right: 2.8rem;
+  main {
+    .top-section {
+      height: 480px;
 
-    h1 {
-      font-size: 3.2em;
-    }
+      &__image img {
+        height: 100%;
+        object-fit: cover;
+      }
 
-    h4 {
-      font-size: 1em;
-    }
+      &__intro {
+        padding: 0 10px;
 
-    p {
-      width: 20rem;
-      font-size: 0.7rem;
+        h1 {
+          font-size: 2.5em;
+        }
+      }
     }
   }
-  .coaches__item_content {
-    padding: 38px 0 28px;
+;
 
-    h2 {
-      margin: 6px 0;
-      font-size: 20px;
-    }
 
-    h3 {
-      margin: 6px 0;
-      font-size: 12px;
-    }
+  .section {
+    margin-top: 56px;
+  }
+  .content {
+    padding: 43px 17px;
+    font-size: 12px;
 
-    .profession {
-      margin: 8px 0;
-    }
-
-    :nth-child(2) p {
-      font-size: 12px;
-      padding: 10px 0;
+    .button-red {
+      padding: 11px 22px;
     }
   }
 }
 
-/**/
-
-
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .main-menu__button {
-    display: none;
+  header {
+    .main-menu {
+      a {
+        font-size: 12px;
+      }
+    }
+
+    a.button-black {
+      display: none;
+    }
   }
   main {
     padding: 0;
-  }
-  .main-section__intro {
-    opacity: 0;
+
+    .button-red {
+      display: none;
+    }
+
+    .button-red-circle {
+      display: block;
+    }
+
+    .top-section {
+      height: auto;
+      display: block;
+
+      &__intro {
+        width: 70%;
+        padding: 0 -72px;
+      }
+
+      &__image {
+        height: 450px;
+      }
+    }
   }
 
-  .offer__items div {
-    width: 33.33%;
-  }
-  a.button {
-    width: 4rem;
-    height: .8rem;
-    margin-top: 1rem;
-    font-size: .75rem;
-    padding: .8rem 1.3rem .8rem;
-  }
-  .our-services, .coaches, .our-offers  {
-    margin-top: 50px;
-    padding: 0 22px;
-  }
-  .our-services__item {
-    h2 {
-      font-size: 16px;
-    }
-    a {
+  .slider__item {
+    .content {
+      padding: 8px;
       font-size: 12px;
     }
   }
-  .offer__items {
-    font-size: 14px;
+  .slick-dots {
+    display: block;
   }
-  .icon {
-    font-size: 64px;
+}
+
+@media only screen and (max-width: 650px) {
+
+  .offers__item {
+    width: 33.33%;
   }
-  .coaches__item {
-    width: 100%;
+
+  .slider-counter {
+    display: none;
   }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
+  .wrapper {
+    padding: 0;
+  }
+  header, .section, footer {
+    padding: 0 10px;
+  }
   header {
     background-color: white;
     height: 57px;
     position: sticky;
     top: 0;
-    z-index: 10;
+    z-index: 100;
   }
-  main, footer {
-    margin-top: 57px;
-    padding: 0;
+  .logo {
+    width: fit-content;
   }
   .main-menu {
     display: none;
-  }
-  .logo {
-    width: auto;
   }
   .hamburger-menu {
     display: block;
@@ -164,7 +179,6 @@
   #menu__toggle {
     opacity: 0;
   }
-
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
     background-color: red;
@@ -184,7 +198,6 @@
     left: 0;
     width: 100%;
   }
-
   .menu__btn {
     display: flex;
     align-items: center;
@@ -230,26 +243,27 @@
     border-bottom: 4px solid #FF699F;
     box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 
+    &::after {
+      content: 'Menu';
+      color: #ff699f;
+      opacity: .1;
+      width: 0;
+      height: 0;
+      line-height: 1;
+      position: absolute;
+      right: -80px;
+      top: -15px;
+      font-size: 250px;
+      font-weight: 900;
+      letter-spacing: 15px;
+      transform: rotate(90deg);
+    }
+
     h1 {
       font-size: 36px;
       font-weight: 600;
       padding-bottom: 48px;
     }
-  }
-  .menu::after {
-    content: 'Menu';
-    color: #ff699f;
-    opacity: .1;
-    width: 0;
-    height: 0;
-    line-height: 1;
-    position: absolute;
-    right: -80px;
-    top: -15px;
-    font-size: 250px;
-    font-weight: 900;
-    letter-spacing: 15px;
-    transform: rotate(90deg);
   }
   .menu__item {
     display: block;
@@ -264,7 +278,7 @@
     }
   }
 
-  a.main-menu__button {
+  .main-menu .button {
     display: inline-block;
     border: 2px solid #ff699f;
     color: #ff699f;
@@ -272,53 +286,15 @@
   .main-section {
     max-height: 300px;
   }
+  main {
+    padding: 0;
+
+    .top-section__image {
+      height: 300px;
+    }
+  }
+
+  .offers__item {
+    width: 50%;
+  }
 }
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-
-}
-
-/**/
-
-
-/*==========  Mobile First  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width: 320px) {
-
-}
-
-/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-
-}
-
-/**/
-
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-
-}
-
-/**/
-
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-
-}
-
-/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-
-}
-
-/**/
