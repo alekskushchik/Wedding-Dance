@@ -7,6 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
 
@@ -51,14 +52,18 @@
                 <img src="./img/first-dance-i.jpg" alt="">
             </div>
             <div class="top-section__intro">
-                <h1>Wedding <br>
+                <h1 class="wow fadeIn"
+                data-wow-delay="1s">Wedding <br>
                     Dance <br>
                     Lessons</h1>
-                <h4>New Jersey</h4>
-                <p>The wedding dance is one of the most important dances in your life. You look perfect and the whole
+                <h4 class="wow fadeIn"
+                    data-wow-delay="1s">New Jersey</h4>
+                <p class="wow fadeIn"
+                   data-wow-delay="2s">The wedding dance is one of the most important dances in your life. You look perfect and the whole
                     audience is looking at you. Also, it becomes the favorite moment you like to play on videos and
                     photos. Feel the moment</p>
-                <a class="button button-red" href="#">Let's start</a>
+                <a class="button button-red wow fadeIn"
+                   data-wow-delay="3s" href="#">Let's start</a>
                 <a class="button button-red-circle" href="#">
                     <img src="./icons/row-right.svg" alt="">
                 </a>
@@ -66,26 +71,32 @@
         </div>
 
         <div class="section">
-            <h2 class="section__title">Our Services</h2>
+            <h2 class="section__title wow fadeIn"
+            data-wow-duration="3s">Our Services</h2>
             <p class="section__description">
                 We want to make your wedding day perfect that is why suggest a lot of options for dance: not only for a
                 bride and groom but for their friends and relatives
             </p>
-            <div class="our-services">
-                <div class="our-services__items">
+            <div class="our-services wow fadeIn"
+            data-wow-delay="1s">
+                <div class="our-services__items wow fadeIn"
+                data-wow-delay="1s"
+                data-wow-offset="50">
                     <img src="./img/image-1.jpg" alt="">
                     <h2>For Bride and Groom</h2>
                     <a href="#">First Dance</a>
                     <a href="#">Parent & Child Dance</a>
                 </div>
-                <div class="our-services__items">
+                <div class="our-services__items wow fadeIn"
+                data-wow-delay="1.5s">
                     <img src="./img/image-2.jpg" alt="">
                     <h2>For Guests</h2>
                     <a href="#">Groomsmen Dance</a>
                     <a href="#">Parent Dance</a>
                     <a href="#">Children’s Dance</a>
                 </div>
-                <div class="our-services__items">
+                <div class="our-services__items wow fadeIn"
+                data-wow-delay="2s">
                     <img src="./img/image-3.jpg" alt="">
                     <h2>Other events</h2>
                     <a href="#">First Dance</a>
@@ -95,7 +106,8 @@
         </div>
 
         <div class="section">
-            <h2 class="section__title">What we offer</h2>
+            <h2 class="section__title wow fadeIn"
+                data-wow-duration="3s">What we offer</h2>
             <p class="section__description">
                 Our goal is not only to teach you how to dance but also give the best unforgettable memories about
                 preparing to your event
@@ -141,7 +153,8 @@
         </div>
 
         <div class="section">
-            <h2 class="section__title">Our Coaches</h2>
+            <h2 class="section__title wow fadeIn"
+                data-wow-duration="3s">Our Coaches</h2>
             <p class="section__description">
                 Coaches in our school are not only perfect dancers but also have a big experience in coaching that
                 is why you will feel really amazing after each of your class
@@ -246,6 +259,10 @@
         <p>Copyright © 2019</p>
     </div>
 </footer>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
 <script src="js/scripts.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
