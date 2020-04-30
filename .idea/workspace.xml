@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b234072-7a1c-40e9-8bcd-9c3fd876bd24" name="Default Changelist" comment="Homework 6. Intro to JS">
-      <change afterPath="$PROJECT_DIR$/app/js/wow.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basic-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,13 +39,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/js" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -153,7 +151,7 @@
       <workItem from="1587797146406" duration="1132000" />
       <workItem from="1587803844622" duration="289000" />
       <workItem from="1587804155941" duration="17689000" />
-      <workItem from="1588047192378" duration="5563000" />
+      <workItem from="1588047192378" duration="7890000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 6. Intro to JS">
       <created>1587644907642</created>
@@ -244,12 +242,13 @@
     <state width="1413" height="150" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1587797036577" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@-217.-1057.1920.1057" timestamp="1586888831148" />
     <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.823/-217.-1057.1920.1057@0.23.1440.823" timestamp="1586882332142" />
-    <state x="182" y="23" key="SettingsEditor" timestamp="1587835067230">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="182" y="23" key="SettingsEditor" timestamp="1588195513592">
+      <screen x="0" y="23" width="1440" height="817" />
     </state>
     <state x="182" y="23" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1587835067230" />
     <state x="182" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1587741713060" />
     <state x="174" y="23" key="SettingsEditor/0.23.1440.815@0.23.1440.815" timestamp="1587675049565" />
+    <state x="182" y="23" key="SettingsEditor/0.23.1440.817@0.23.1440.817" timestamp="1588195513592" />
     <state x="220" y="101" key="Vcs.Push.Dialog.v2" timestamp="1588016323217">
       <screen x="0" y="23" width="1440" height="813" />
     </state>

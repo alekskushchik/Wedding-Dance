@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/basic-build.iml" filepath="$PROJECT_DIR$/.idea/basic-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../React-projects/project_1/.idea/project_1.iml" filepath="$PROJECT_DIR$/../../React-projects/project_1/.idea/project_1.iml" />
     </modules>
   </component>
 </project>
